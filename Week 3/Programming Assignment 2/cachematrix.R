@@ -55,3 +55,20 @@ cacheSolve <- function(x, ...) {
   i
   
 }
+
+## Use cases:
+
+## In order to examine makeCacheMatrix
+
+##  x = rbind(c(1, -1/2), c(-1/2, 1))
+##  m = makeCacheMatrix(x)
+##  m$get()
+
+
+## In order to examine cacheSolve
+
+##  x = rbind(c(1, -1/2), c(-1/2, 1))
+##  m = makeCacheMatrix(x)
+##  m$get()
+## cacheSolve(m)
+## cacheSolve()
